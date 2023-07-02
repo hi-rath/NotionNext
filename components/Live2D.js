@@ -35,6 +35,6 @@ export default function Live2D() {
     return <></>
   }
 
-  return <canvas id="live2d" className='cursor-pointer' width="280" height="300" onClick={handleClick} alt='koharu' title='koharu' />
+  return <canvas id="live2d" className='cursor-pointer' width="280" height="320" onClick={handleClick} alt='koharu' title='koharu' />
 // return <canvas id="live2d" className='cursor-pointer' width="280" height="250" onClick={handleClick} alt='切换主题' title='切换主题' />
 }
